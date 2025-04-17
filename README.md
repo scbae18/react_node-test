@@ -1,6 +1,24 @@
-## ⚙️ 개발자별 초기 설치 및 세팅 가이드
+### 설명
+frontend: react
+backend: node.js
+를 이용하여 프로젝트 협업하기 위한 가이드 테스트 프로젝트
 
-협업을 시작하는 모든 개발자는 아래 절차에 따라 환경을 세팅하세요.
+- **기능** 
+메인 페이지에서 버튼 누르면 새로운 페이지로 넘어가기
+이전 페이지로 이동 가능
+
+
+### 프로젝트 폴더 구조
+
+```bash
+ PJ/
+├── client/       # React 앱    
+├── server/       # Node.js 서버
+├── .gitignore
+└── README.md
+```
+
+## ⚙️ 개발자별 초기 설치 및 세팅 가이드
 
 ---
 
@@ -91,8 +109,6 @@ myproject/
 | 새 브랜치 생성     | `git checkout -b feature/xxx` |
 | 변경 사항 저장     | `git add .` → `git commit -m "메시지"` |
 | 원격 푸시          | `git push origin 브랜치명`     |
-
----
 
 ---
 
