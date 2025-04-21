@@ -4,3 +4,6 @@ node_modules/
 build/
 
 .env
+
+scbae_key.pem
+
