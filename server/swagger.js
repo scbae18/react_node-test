@@ -1,5 +1,7 @@
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
+const path = require("path"); // ✅ 이거 꼭 필요!
+
 
 const options = {
   definition: {
