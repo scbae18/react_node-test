@@ -10,7 +10,7 @@ const options = {
       description: 'API documentation for navigation endpoint',
     },
   },
-  apis: ['./index.js'], // 주석 작성할 파일 경로
+  apis: [path.join(__dirname, 'index.js')], // ✅ index.js 경로를 정확히 지정
 };
 
 const specs = swaggerJsdoc(options);
